@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Cadeaus" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Lijstje voor kerst 2022" />
+    <meta property="og:url" content="https://pharst.nl/lijstje" />
+    <meta property="og:image" content="https://pharst.nl/assets/img/cadeau.png" />
+    <meta property="og:image:secure_url" content="https://pharst.nl/assets/img/cadeau.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="469" />
+    <meta property="og:image:height" content="317" />
+    <meta property="og:image:alt" content="Een paar kleine cadeautjes" />
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap4/bootstrap.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/gifts.css?v=6" | relative_url }}">
+    <link rel="preload" href="{{ "/assets/img/giftbox.png" | relative_url }}" as="image">
+    {% include head-gifts.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <header>
+          <img class="img-circle" rel="prefetch" src="{{ "/assets/img/giftbox.png?v=" | relative_url }}">
+          <h1>Wenslijst</h1>
+          <p>Patrick</p>
+        </header>
+      </div>
+      <section>
+      {{ content }}
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/bootstrap4/bootstrap.min.js" | relative_url }}"></script>
+  </body>
+</html>

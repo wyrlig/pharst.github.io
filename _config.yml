@@ -1,0 +1,12 @@
+title: pharst.nl
+description: 
+generator: self
+url: www.pharst.nl
+site: pharst.nl
+show_downloads: false
+theme: null
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji

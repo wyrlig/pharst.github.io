@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/example.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap5/bootstrap.min.css" | relative_url }}">
+{% seo %}
+  </head>
+  <body>
+    {% include example-navbar.html %}
+    {{ content}}
+    {% include example-footer.html %}
+  </body>
+</html>

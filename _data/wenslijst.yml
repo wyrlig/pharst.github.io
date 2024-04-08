@@ -1,0 +1,21 @@
+#_data/wenslijst.yml
+- name: Douglas Giftcard
+  link: https://www.douglas.nl/nl/p/5010240000?variant=563602
+  image: douglas.jpg
+  date: toegevoegd op 1 december 2021 om 17:00
+  price: ""
+- name: Rituals
+  link: https://www.rituals.com/nl-nl/the-ritual-of-hammam---small-gift-set-2022-1114194.html
+  image: rituals.jpg
+  date: toegevoegd op 27 november 2022
+  price: "22,90"
+- name: Sokken - maat 41 (Bol)
+  link: https://www.bol.com/nl/nl/p/tommy-hilfiger-sokken-giftbox-birdeye-5-pack-navy/9300000072935937
+  image: sokken.jpg
+  date: toegevoegd op 27 november 2022
+  price: "22,49"
+- name: Shelly PlugS
+  link: https://www.robbshop.nl/shelly-plugs-slimme-stekker-wifi
+  image: shelly_plug_s.jpg
+  date: toegevoegd op 1 december 2021 om 20:33
+  price: "20,95"
